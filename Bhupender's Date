@@ -1,0 +1,29 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout<<"Bhupender's Date"<<endl;
+    int savings;
+    cin>>savings;
+    while(savings){
+    
+    if(savings>5000){
+    cout<<"❤️❤️❤️"<<endl;
+    }
+    else if (savings>2000){
+        cout<<"Class aali"<<endl;
+    }
+    else if (savings>0){
+        cout<<"Bhar aali"<<endl;
+    }
+    else if (savings=0){
+        cout<<"udhar lele bro "<<endl;
+    }
+    else {
+        cout<<"or udhar lele bro "<<endl;
+    }
+        cin>>savings;
+    }
+    return 0;
+} 
